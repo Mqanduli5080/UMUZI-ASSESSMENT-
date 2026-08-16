@@ -1,0 +1,15 @@
+{
+  "name": "coffee-brew-app",
+  "version": "1.0.0",
+  "description": "Micro-roastery coffee brew logging application",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspaces",
+    "build": "npm run build --workspaces",
+    "start": "npm run start --workspaces"
+  }
+}
