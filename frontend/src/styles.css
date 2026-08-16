@@ -1,0 +1,7 @@
+body {
+  background: #f8f9fa;
+}
+.card-text.text-truncate {
+  max-height: 3.5rem;
+  overflow: hidden;
+}
